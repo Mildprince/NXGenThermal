@@ -303,6 +303,13 @@
     justify-self: start;
   }
 
+  /*about*/
+
+  .about{
+    text-align: center;
+    margin: 5%;
+  }
+
   /*footer*/
 
   footer{
