@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NX Gen Thermal was established in the summer of 2019 with the goal of delivering
+    innovative and sustainable solutions to high heat flux challenges">
+    <title>NX Gen Thermal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+   
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav>
+            <a href="index.html"><img src="Images/NX_Gen_Therm_Logo-02.svg" alt="NX Gen Thermal logo"></a>
+             
+            <button onclick="myFunction()" class="dropbtn">
+                <div id="nav-icon1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </nav>
+
+        
+       
+        <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="#chip">Info</a>
+            <a href="company.html">About Us</a>
+            <a href="faq.html">Board Of Advisors</a>
+        </div>
+    </header>
+
+    
+
+
+    <!--Main body content-->
+    <main>
+        <!-- old messaging
+        <section class="header">
+            <img src='Images/AdobeStock_396946465 2.jpg' alt="a blue cpu">
+            <section id="tech">
+                <h1>Technology</h1>
+            <span></span>
+            <p>
+                Our system deploys the indudstry’s first ever, 3D thin film on the chip two-phase
+                evaporative cooling solution. The combination of elements found in traditional cooling
+                systems, enhanced by the proprietary geometry of our unique microchannel
+                construction and our novel two phase evaporative process, promises the highest heat
+                transfer efficiency, making it ideal for high performance cooling applications.
+            </p>
+            </section>
+        </section>
+
+        -->
+
+        <section class="heroimage">
+            <img src="Images/AdobeStock_399568701 1.jpg" alt="An image of a room of servers">
+            <h1 class="animate-on-scroll delay-3">WHAT WE DO <br>IS COOL</h1>
+        </section>
+
+    <!--Chip Cooling-->
+        <section id="chip">
+            <article >
+                <h2>
+                    Chip Cooling
+                </h2>
+                <p>
+                    Our system leverages and perfectly balances the power of evaporative cooling, and it’s
+                    exceptionally high heat transfer coefficient, with the unique physics of enhanced cooling
+                    though the use of proprietary microchannels. With our copper device placed directly on the
+                    chip, with heat spreader removed, all resistance from thermal pastes and other materials are
+                    eliminated. A carefully calibrated flow system optimizes the performance, avoiding burnout
+                    and boiling. It can be deployed as a new system in Data centers, as a retrofit for liquid cooling
+                    systems, or even applied to immersion cooling.
+                </p>
+            </article>
+            <img src='Images/CoolingAnimation_02.png' alt="A severrack showing closeups of information">
+        </section>
+      
+        <section class="pain animate-on-scroll delay-3">
+            <img src="Images/Cpu_Hot.jpg" alt="image of Burning CPU">
+            <article>
+                <h2>
+                    High Heat Flux Challenges
+                </h2>
+                <p>
+                    The company has developed and tested a working prototype that has
+                    delivered perfomance results similar to those of high performance liquid
+                    cooling. With the technology and science now confirmed, it is moving
+                    forward to its next gen prototype which will utilize advanced materials such
+                    as graphene, silicon, and sophisticated methods such as electrostatic
+                    etching, and be built in a clean room environment. The company’s modeling suggest that this next-gen evaporative cooling solution using
+                    advanced materials can remove 7X to 10X more heat than the traditional
+                    copper based prototype, making it ideal for AI GPUs, #D ICs, and high
+                    density data centers.
+                </p>
+            </article>
+        </section>
+    </main>
+     <!--Footer-->
+     <footer>
+        <address>
+            <p>617-335-8890</p>
+            <p>245 Main Street Cambrdige, MA 02142</p>
+            <img src="Images/NX_Gen_Therm_Logo-02.svg" alt="Blue X Thermal logo white">
+        </address>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Replace with your Access Key -->
+             <h2>Contact Us</h2>
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+        
+            <!-- Form Inputs. Each input must have a name="" attribute -->
+            <input type="text" name="name" required placeholder="Name..">
+            <span></span>
+            <input type="email" name="email" required placeholder="Email..">
+            <span></span>
+            <textarea name="message" required placeholder="Message.."></textarea>
+            <span></span>
+        
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        
+            <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+        
+            <button type="submit">Submit</button>
+
+            <!-- Optional: Custom Redirection or Thank you Page
+            Make sure you add full URL including https:// -->
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        
+        </form>
+        
+    </footer>
+</body>
+   
